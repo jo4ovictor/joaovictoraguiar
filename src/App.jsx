@@ -15,21 +15,15 @@ function App() {
         idade:"18",
         foto:"https://picsum.photos/600",
       },
-      {
-        nome:"meu 3eirão",
-        idade:"18+",
-        foto:"https://picsum.photos/600",
-      }
+
 
     ];
 
   return(
     <div>
       <Title />
-      {/* <Button cor="#ffff00" frase="Confirmar"/>
-      <Button cor="#00ff00" frase="Recusar"/> */}
-      <SayName nome = " love"/>
-      <Perfil foto ="https://picsum.photos/600" nome="Mario" idade={17}/>
+      <SayName />
+      <Perfil />
 
       { lista_pessoas.map( (pessoa) => {
         return <Perfil 
